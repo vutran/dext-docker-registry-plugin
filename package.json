@@ -1,0 +1,25 @@
+{
+  "name": "dext-docker-registry-plugin",
+  "version": "0.0.0",
+  "description": "Dext plugin to search the Docker Registry for Docker images.",
+  "keywords": [
+    "dext",
+    "dext-plugin",
+    "docker",
+    "registry",
+    "hub",
+    "container"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "Vu Tran <vu@vu-tran.com>",
+  "license": "MIT",
+  "dependencies": {
+    "got": "^6.3.0"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0"
+  }
+}

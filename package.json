@@ -12,7 +12,7 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "jest"
   },
   "author": "Vu Tran <vu@vu-tran.com>",
   "license": "MIT",
@@ -20,6 +20,6 @@
     "got": "^6.3.0"
   },
   "devDependencies": {
-    "ava": "^0.16.0"
+    "jest": "^15.1.1"
   }
 }

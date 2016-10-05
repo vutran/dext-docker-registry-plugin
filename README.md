@@ -1,5 +1,7 @@
 # dext-docker-registry-plugin
 
+[![Travis](https://img.shields.io/travis/vutran/dext-docker-registry-plugin/develop.svg?maxAge=2592000&style=flat-square)](https://travis-ci.org/vutran/dext-docker-registry-plugin) [![Coveralls branch](https://img.shields.io/coveralls/vutran/dext-docker-registry-plugin/develop.svg?maxAge=2592000&style=flat-square)](https://coveralls.io/github/vutran/dext-docker-registry-plugin) [![license](https://img.shields.io/github/license/vutran/dext-docker-registry-plugin.svg?maxAge=2592000&style=flat-square)](LICENSE)
+
 > [Dext](https://github.com/vutran/dext) plugin to search the Docker Registry for Docker images.
 
 ![](screenshot.png?raw=true)

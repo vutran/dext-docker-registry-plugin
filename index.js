@@ -11,7 +11,7 @@ const ENDPOINT = `https://hub.docker.com/${VERSION}/search/repositories/`;
  * @param {Object} result
  * @return {String}
  */
-const getRepositoryUrl = result => {
+const getRepositoryUrl = (result) => {
   const repo = result.is_official ? `_/${result.repo_name}` : result.repo_name;
   return `https://hub.docker.com/r/${repo}`;
 };
@@ -26,7 +26,7 @@ module.exports = {
       path: './icon.png',
     },
   },
-  execute: q => new Promise(resolve => {
+  execute: q => new Promise((resolve) => {
     const opts = {
       query: {
         query: q,
@@ -34,7 +34,7 @@ module.exports = {
       json: true,
     };
     got(ENDPOINT, opts)
-      .then(res => {
+      .then((res) => {
         if (res.body) {
           const items = res.body.results
             .map(i => Object.assign({}, {

@@ -12,7 +12,8 @@
   ],
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "icon.png"
   ],
   "scripts": {
     "lint": "eslint __tests__ index.js",

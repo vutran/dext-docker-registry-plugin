@@ -16,7 +16,7 @@
     "icon.png"
   ],
   "scripts": {
-    "lint": "eslint __tests__ index.js",
+    "lint": "eslint __mocks__ __tests__ index.js",
     "test": "jest --coverage"
   },
   "author": "Vu Tran <vu@vu-tran.com>",

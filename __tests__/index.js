@@ -18,7 +18,7 @@ describe('dext-docker-registry-plugin', () => {
       ],
     });
 
-    const results = await m.execute('node');
+    const results = await m.query('node');
     expect(results.items.length).toBeGreaterThan(0);
   });
 });

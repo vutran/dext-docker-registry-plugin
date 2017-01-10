@@ -26,7 +26,7 @@ module.exports = {
       path: './icon.png',
     },
   },
-  execute: q => new Promise((resolve) => {
+  query: q => new Promise((resolve) => {
     const opts = {
       query: {
         query: q,

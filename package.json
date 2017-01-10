@@ -1,6 +1,6 @@
 {
   "name": "dext-docker-registry-plugin",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Dext plugin to search the Docker Registry for Docker images.",
   "keywords": [
     "dext",
